@@ -9,11 +9,7 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 # Apps
 PRODUCT_PACKAGES += \
-    Eleven \
-    Etar \
-    Profiles \
-    Recorder \
-    Seedvault
+    Profiles 
 
 ifneq ($(PRODUCT_NO_CAMERA),true)
 PRODUCT_PACKAGES += \
